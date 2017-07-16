@@ -11,6 +11,10 @@ Images:
   PSImage: tensorflow/tensorflow
 Jupyter:
   UseGPU: false
+  CPU: 100m
+  CPULimit: 8000m
+  Memory: 128Mi
+  MemoryLimit: 4Gi
 MonitoringNamespace: kuberlab
 PythonPackages:
   - pillow
